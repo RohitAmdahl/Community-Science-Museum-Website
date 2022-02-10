@@ -11,17 +11,17 @@
   --font-p: 18px;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo {
   max-width: 200px;
   width: 100%;
-  margin-top: 25px;
-  margin-left: 48px;
+  margin: 15px;
 }
 
 header {
@@ -31,10 +31,11 @@ header {
 }
 
 ul a {
-  padding: 30px;
+  padding: 20px;
   text-decoration: none;
   color: var(--color-text-color);
-  font-size: 20px;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
 }
 .active {
   padding-left: 120px;
