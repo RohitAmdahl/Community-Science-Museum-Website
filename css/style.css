@@ -1,0 +1,41 @@
+:root {
+  --color-perpal: #aeafd6;
+  --color-red-light: #f89380;
+  --color-grey: #d2ced5;
+  --color-light-green: #e6ede7;
+  --color-text-color: #4b2f2f;
+  --color-link: #084dbd;
+  --font-h1: 60px;
+  --font-h2: 42px;
+  --font-h3: 36px;
+  --font-p: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 200px;
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 48px;
+}
+
+header {
+  background-color: var(--color-light-green);
+  display: flex;
+  align-items: center;
+}
+
+ul a {
+  padding: 30px;
+  text-decoration: none;
+  color: var(--color-text-color);
+  font-size: 20px;
+}
+.active {
+  padding-left: 120px;
+}
