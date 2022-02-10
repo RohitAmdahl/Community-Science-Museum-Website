@@ -5,16 +5,22 @@ body {
 }
 
 .tittle {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding: 1px;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .background {
-  background-image: url(/Group\ 14.png);
+  background-image: url(/pictures/museum-background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
