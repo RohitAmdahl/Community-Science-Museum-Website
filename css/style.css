@@ -1,6 +1,6 @@
 :root {
   --color-perpal: #aeafd6;
-  --color-red-light: #f89380;
+  --color-red-light: #fef4f2;
   --color-grey: #d2ced5;
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
@@ -31,11 +31,14 @@ p {
 img {
   width: 100%;
 }
+.Menu-bar {
+  display: none;
+}
 
 .logo {
-  max-width: 200px;
   width: 100%;
-  margin-top: 20px;
+  max-width: 150px;
+  margin: 10px;
 }
 
 header {
@@ -199,7 +202,7 @@ ul a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 40px 0px;
-  background-color: rgb(230, 237, 231, 93);
+  background-color: var(--color-light-green);
 }
 
 .button {
@@ -226,4 +229,35 @@ ul a {
 .address p {
   margin: 0;
   text-align: left;
+}
+/*--------------------------------------------------About us  --------------------------*/
+.background-1 {
+  background-color: aliceblue;
+  max-width: 960px;
+  margin: 0 auto;
+  background-image: url(/pictures/About.jpg);
+}
+
+.picture-1 {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+.text {
+  background: var(--color-red-light);
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.text-1 {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.heading {
+  font-size: var(--tittle);
 }
