@@ -9,6 +9,7 @@
   --h2: 1.2em;
   --h3: 1.3em;
   --p: 17px;
+  --tittle: 45px;
 }
 
 body {
@@ -57,7 +58,7 @@ ul a {
 
 .tittle {
   text-align: center;
-  font-size: 28px;
+  font-size: var(--tittle);
   color: var(--color-text-color);
   box-sizing: border-box;
   max-width: 960px;
@@ -69,7 +70,7 @@ ul a {
   background: var(--color-light-green);
   position: relative;
   top: 100px;
-  text-decoration: underline;
+  opacity: 90%;
 }
 
 .opening-hours {
@@ -108,8 +109,7 @@ p {
 
 .cta {
   color: var(--color-text-color);
-  text-shadow: 1px 2px 9px var(--color-text-color);
-  padding: 10px 45px;
+  padding: 12px 45px;
   text-decoration: none;
   font-size: var(--p);
   background-color: var(--color-red-light);
@@ -119,4 +119,32 @@ p {
   justify-content: center;
   align-items: center;
   width: 128px;
+  transition: ease-in-out 250ms;
+}
+
+.cta:hover {
+  background-color: var(--color-perpal);
+}
+
+.cta-1 {
+  color: var(--color-text-color);
+  padding: 15px 45px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: var(--color-light-green);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  transition: ease-in-out 250ms;
+}
+
+.cta-1:hover {
+  background-color: var(--color-red-light);
+}
+
+.food {
+  margin: 30px;
 }
