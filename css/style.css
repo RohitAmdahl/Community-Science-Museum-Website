@@ -8,8 +8,7 @@
   --h1: 1.5em;
   --h2: 1.2em;
   --h3: 1.3em;
-  --p: 17px;
-  --tittle: 45px;
+  --tittle: 42px;
 }
 
 body {
@@ -24,7 +23,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 .logo {
@@ -43,12 +41,13 @@ ul a {
   padding: 20px;
   text-decoration: none;
   color: var(--color-text-color);
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .active {
-  padding-left: 120px;
+  padding-left: 100px;
 }
+
 .background {
   background-image: url(/pictures/elephant-bones.jpg);
   background-size: cover;
@@ -70,7 +69,7 @@ ul a {
   background: var(--color-light-green);
   position: relative;
   top: 100px;
-  opacity: 90%;
+  opacity: 70%;
 }
 
 .opening-hours {
@@ -101,10 +100,6 @@ ul a {
 .tour-per-person {
   font-size: var(--h1);
   margin: 20px;
-}
-
-p {
-  font-size: var(--p);
 }
 
 .cta {
