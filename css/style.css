@@ -106,26 +106,30 @@ ul a {
 
 .tour-per-person {
   font-size: var(--h1);
-  margin: 20px;
+  margin: 40px;
 }
 
 .cta {
   color: var(--color-text-color);
   padding: 12px 45px;
   text-decoration: none;
-  font-size: var(--p);
   background-color: var(--color-red-light);
   border-radius: 10px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: -15px;
   width: 128px;
   transition: ease-in-out 250ms;
 }
 
 .cta:hover {
-  background-color: var(--color-perpal);
+  background-color: var(--color-grey);
+}
+
+.button {
 }
 
 .cta-1 {
@@ -168,6 +172,11 @@ ul a {
   justify-content: center;
   gap: 15px;
 }
+
+.info {
+  max-width: 90px;
+}
+
 .wrap-1 {
   display: flex;
   flex-wrap: wrap;
@@ -176,6 +185,7 @@ ul a {
   gap: 15px;
   margin-top: 55px;
   padding-top: 40px;
+  padding-bottom: 55px;
   background-color: var(--color-perpal);
 }
 .picture {
@@ -191,8 +201,16 @@ ul a {
   background-color: var(--color-light-green);
 }
 
+.button {
+  background-color: var(--color-perpal);
+}
+
 .copywrite {
   width: 250px;
+}
+
+.link {
+  color: var(--color-link);
 }
 
 .sosial-media {
