@@ -5,17 +5,25 @@
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
   --color-link: #084dbd;
-  --font-h1: 60px;
-  --font-h2: 42px;
-  --font-h3: 36px;
-  --font-p: 18px;
+  --h1: 1.5em;
+  --h2: 1.2em;
+  --h3: 1.3em;
+  --p: 17px;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
 }
 
 .logo {
@@ -35,12 +43,80 @@ ul a {
   text-decoration: none;
   color: var(--color-text-color);
   font-size: 21px;
-  font-family: "Roboto", sans-serif;
 }
+
 .active {
   padding-left: 120px;
+}
+.background {
+  background-image: url(/pictures/elephant-bones.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
 }
 
 .tittle {
   text-align: center;
+  font-size: 28px;
+  color: var(--color-text-color);
+  box-sizing: border-box;
+  max-width: 960px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-light-green);
+  position: relative;
+  top: 100px;
+  text-decoration: underline;
+}
+
+.opening-hours {
+  background-color: var(--color-light-green);
+  padding: 40px;
+  position: relative;
+  top: -65px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+.visit_hours p {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--color-text-color);
+  position: relative;
+}
+
+.open {
+  font-size: var(--h1);
+  margin: 15px 0px;
+}
+
+.closed {
+  font-size: var(--h2);
+}
+
+.tour-per-person {
+  font-size: var(--h1);
+  margin: 20px;
+}
+
+p {
+  font-size: var(--p);
+}
+
+.cta {
+  color: var(--color-text-color);
+  text-shadow: 1px 2px 9px var(--color-text-color);
+  padding: 10px 45px;
+  text-decoration: none;
+  font-size: var(--p);
+  background-color: var(--color-red-light);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
 }
