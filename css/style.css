@@ -56,7 +56,7 @@ ul a {
 }
 
 .background {
-  background-image: url(/pictures/elephant-bones.jpg);
+  background-image: url(/pictures/fasade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400px;
@@ -70,13 +70,14 @@ ul a {
   max-width: 960px;
   min-height: 100px;
   margin: 0 auto;
+  text-shadow: 2px 1px 0px rgb(146, 145, 145);
   display: flex;
   justify-content: center;
   align-items: center;
   background: var(--color-light-green);
   position: relative;
   top: 100px;
-  opacity: 70%;
+  opacity: 90%;
 }
 
 .opening-hours {
@@ -119,6 +120,7 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 2px 2px 1px rgb(70, 69, 69);
   position: relative;
   top: -15px;
   width: 128px;
@@ -129,12 +131,9 @@ ul a {
   background-color: var(--color-grey);
 }
 
-.button {
-}
-
 .cta-1 {
   color: var(--color-text-color);
-  padding: 15px 45px;
+  padding: 15px 30px;
   text-decoration: none;
   font-size: 18px;
   background-color: var(--color-light-green);
@@ -144,6 +143,7 @@ ul a {
   justify-content: center;
   align-items: center;
   width: 300px;
+  box-shadow: 1px 2px 2px 1px rgb(58, 57, 57);
   transition: ease-in-out 250ms;
   position: relative;
   top: 320px;
@@ -188,6 +188,7 @@ ul a {
   padding-bottom: 55px;
   background-color: var(--color-perpal);
 }
+
 .picture {
   max-width: 350px;
   align-items: center;
@@ -198,7 +199,7 @@ ul a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 40px 0px;
-  background-color: var(--color-light-green);
+  background-color: rgb(230, 237, 231, 93);
 }
 
 .button {
@@ -206,7 +207,9 @@ ul a {
 }
 
 .copywrite {
-  width: 250px;
+  width: 480px;
+  display: flex;
+  align-items: center;
 }
 
 .link {
@@ -218,6 +221,7 @@ ul a {
   gap: 5px;
   max-width: 173px;
   cursor: pointer;
+  align-items: center;
 }
 .address p {
   margin: 0;
