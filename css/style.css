@@ -35,7 +35,7 @@ img {
 .logo {
   max-width: 200px;
   width: 100%;
-  margin: 15px;
+  margin-top: 20px;
 }
 
 header {
@@ -181,4 +181,27 @@ ul a {
 .picture {
   max-width: 350px;
   align-items: center;
+}
+
+.wrap-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0px;
+  background-color: var(--color-light-green);
+}
+
+.copywrite {
+  width: 250px;
+}
+
+.sosial-media {
+  display: inline-flex;
+  gap: 5px;
+  max-width: 173px;
+  cursor: pointer;
+}
+.address p {
+  margin: 0;
+  text-align: left;
 }
