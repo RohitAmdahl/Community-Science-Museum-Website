@@ -235,6 +235,22 @@ ul a {
   background-color: aliceblue;
   background-image: url(/pictures/museum-background.jpg);
   min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tittle-1 {
+  background-color: aqua;
+  box-sizing: border-box;
+  max-width: 960px;
+  min-height: 120px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-light-green);
+  position: relative;
+  top: 100px;
+  opacity: 90%;
 }
 
 .picture-1 {
@@ -259,4 +275,13 @@ ul a {
 }
 .heading {
   font-size: var(--tittle);
+}
+.heading-1 {
+  font-size: var(--tittle);
+  margin: 0;
+}
+.about-text {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
 }
