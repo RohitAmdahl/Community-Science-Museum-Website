@@ -234,7 +234,7 @@ ul a {
 .background-1 {
   background-color: aliceblue;
   background-image: url(/pictures/museum-background.jpg);
-  min-height: 300px;
+  min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -283,5 +283,12 @@ ul a {
 .about-text {
   box-sizing: border-box;
   max-width: 600px;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------About us  --------------------------*/
+.kid-img {
+  max-width: 500px;
+  display: block;
   margin: 0 auto;
 }
