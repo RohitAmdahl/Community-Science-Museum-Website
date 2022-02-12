@@ -1,6 +1,7 @@
 :root {
   --color-perpal: #aeafd6;
-  --color-red-light: #fef4f2;
+  --color-red-light: #f89380;
+  --color-background: #fef4f2;
   --color-grey: #d2ced5;
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
@@ -259,7 +260,7 @@ ul a {
   display: block;
 }
 .text {
-  background: var(--color-red-light);
+  background: var(--color-background);
   margin: 0 auto;
   text-align: left;
   padding-bottom: 1px;
@@ -280,15 +281,46 @@ ul a {
   font-size: var(--tittle);
   margin: 0;
 }
+
 .about-text {
   box-sizing: border-box;
   max-width: 600px;
   margin: 0 auto;
 }
 
-/*--------------------------------------------------About us  --------------------------*/
+/*--------------------------------------------------explore --------------------------*/
 .kid-img {
   max-width: 500px;
   display: block;
   margin: 0 auto;
+}
+.teacher-img {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  background: var(--color-background);
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 1px;
+}
+
+.text-2 {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  max-width: 700px;
+}
+.text-3 {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: cebter;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  max-width: 700px;
 }
