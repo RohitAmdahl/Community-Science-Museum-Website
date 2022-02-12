@@ -368,3 +368,39 @@ ul a {
   left: 366px;
   top: 132px;
 }
+/*--------------------------------------------------events --------------------------*/
+
+.Cosmology {
+  text-align: center;
+  font-size: var(--tittle);
+  color: var(--color-text-color);
+  box-sizing: border-box;
+  max-width: 450px;
+  margin: 0 auto;
+  align-items: center;
+  background: var(--color-light-green);
+  opacity: 50%;
+}
+.cta-3 {
+  color: var(--color-text-color);
+  padding: 15px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: var(--color-red-light);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  box-shadow: 1px 2px 2px 1px rgb(58, 57, 57);
+  transition: ease-in-out 250ms;
+}
+
+.cta-3:hover {
+  background-color: var(--color-grey);
+}
+
+.events {
+  max-width: 450px;
+}
