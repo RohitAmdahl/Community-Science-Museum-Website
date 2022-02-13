@@ -443,6 +443,14 @@ a {
   background-color: var(--color-light-green);
 }
 /*-------------------------------------------------exhibitions page --------------------------*/
+.exhibition {
+  background-image: url(/pictures/exibition-heading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  background-position-y: -61px;
+}
+
 .main {
   background-image: url(/pictures/cosmo-stars.jpg);
   background-repeat: no-repeat;
@@ -483,6 +491,7 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .name {
   background: var(--color-light-green);
   font-size: var(--tittle);
@@ -491,7 +500,9 @@ a {
   top: 100px;
   max-width: 500px;
   color: var(--color-text-color);
+  padding: 10px 0px;
 }
+
 .artical-text {
   text-align: left;
   max-width: 700px;
