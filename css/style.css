@@ -99,9 +99,7 @@ a {
 
 .opening-hours {
   background-color: var(--color-light-green);
-  padding: 40px;
-  position: relative;
-  top: -65px;
+
   max-width: 375px;
   margin: 0 auto;
 }
@@ -168,15 +166,6 @@ a {
 
 .cta-1:hover {
   background-color: var(--color-red-light);
-}
-
-.get-involved {
-  background-image: url(/pictures/heart_.png);
-  background-repeat: no-repeat;
-  max-width: 375px;
-  margin: 0 auto;
-  background-size: cover;
-  min-height: 300px;
 }
 
 .food {
