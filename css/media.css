@@ -1,22 +1,35 @@
-@media (max-width: 375px) {
-  ul {
-    display: none;
-  }
+@media (max-width: 810px) {
   .menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
-  #menu-checkbox :checked ~ ul {
-    display: block;
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    position: absolute;
+    left: 32px;
+    top: 155px;
   }
+
   .address {
     display: none;
   }
   .cta-1 {
     padding: 15px 10px;
   }
+
+  .teacher,
+  .kids {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
   .copywrite {
-    display: grid;
+    display: block;
+    text-align: center;
     margin-left: 50px;
     margin-bottom: 20px;
     margin-right: 50px;
