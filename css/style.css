@@ -6,7 +6,7 @@
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
   --color-link: #084dbd;
-  --h1: 1.5em;
+  --h1: 1.7em;
   --h2: 1.2em;
   --h3: 1.3em;
   --tittle: 42px;
@@ -59,12 +59,13 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  background: var(--color-light-green);
 }
 
 nav a {
-  color: #000;
+  color: var(--color-text-color);
   padding: 15px;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 a {
@@ -367,9 +368,6 @@ a {
 .Kids {
   font-size: var(--tittle);
   margin: 0;
-  position: relative;
-  left: 366px;
-  top: 132px;
 }
 /*--------------------------------------------------events --------------------------*/
 
@@ -384,11 +382,12 @@ a {
   background: var(--color-light-green);
   opacity: 80%;
   position: relative;
-  top: -165px;
+  top: -254px;
 }
 .sub-heading {
   font-size: 18px;
-  padding: 0px;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .cta-3 {
@@ -434,11 +433,70 @@ a {
 }
 
 .artical {
-  background: var(--color-background);
+  background: var(--color-light-green);
   margin: 0 auto;
 }
+
 .itemes {
   margin: 0;
   padding: 8px 8px;
   background-color: var(--color-light-green);
+}
+/*-------------------------------------------------exhibitions page --------------------------*/
+.main {
+  background-image: url(/pictures/cosmo-stars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main-1 {
+  background-image: url(/pictures/dino-bones.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main-2 {
+  background-image: url(/pictures/robotic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main-3 {
+  background-image: url(/pictures/human-medicine.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main-4 {
+  background-image: url(/pictures/ecology.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.name {
+  background: var(--color-light-green);
+  font-size: var(--tittle);
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  max-width: 500px;
+  color: var(--color-text-color);
+}
+.artical-text {
+  text-align: left;
+  max-width: 700px;
+  padding: 15px;
+  margin: 0 auto;
+  color: var(--color-text-color);
+  margin-bottom: 20px;
 }
