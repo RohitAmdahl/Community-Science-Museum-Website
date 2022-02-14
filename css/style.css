@@ -388,6 +388,14 @@ a {
   padding: 8px 8px;
   background-color: var(--color-light-green);
 }
+
+.event-news {
+  font-size: var(--h1);
+  margin: 0 auto;
+  color: var(--color-text-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*-------------------------------------------------exhibitions page --------------------------*/
 .exhibition {
   background-image: url(/pictures/exibition-heading.jpg);
