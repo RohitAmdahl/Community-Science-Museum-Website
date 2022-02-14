@@ -470,3 +470,33 @@ a {
   background-position-y: -70px;
   min-height: 550px;
 }
+/*-------------------------------------------------visit --------------------------*/
+.form-wrap {
+  display: grid;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+  background-color: var(--color-grey);
+}
+.Online-form {
+  margin: 20px;
+  font-size: var(--tittle);
+}
+
+.cta-pay {
+  color: var(--color-text-color);
+  padding: 12px 45px;
+  text-decoration: none;
+  background-color: var(--color-red-light);
+  border-radius: 0px;
+  max-width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 2px 1px rgb(70, 69, 69);
+  transition: ease-in-out 250ms;
+  margin: 20px 0px;
+}
