@@ -487,16 +487,15 @@ a {
 
 .cta-pay {
   color: var(--color-text-color);
-  padding: 12px 45px;
-  text-decoration: none;
+  padding: 15px 5px;
+  font-size: 20px;
   background-color: var(--color-red-light);
-  border-radius: 0px;
-  max-width: 200px;
+  border-radius: 10px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  box-shadow: 1px 2px 2px 1px rgb(70, 69, 69);
-  transition: ease-in-out 250ms;
-  margin: 20px 0px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }

@@ -63,7 +63,6 @@
     <section>
       <h1 class="Online-form">Arrange Tour Online</h1>
       <form method="POST">
-       <div>
          <div class="form-wrap">
            <label for="name">Full name</label>
            <input type="text" id="name" name="name" />
@@ -73,16 +72,21 @@
            <input type="tlf" id="phone" name="phone" />
            <label for="exhibition">Exhibition</label>
            <select id="exhibition" name="exhibition"> 
-             <option value="Adirondack Red">Cosmology</option>
-             <option value="Adirondack Blue">Evolution</option>
-             <option value="Adirondack Green">Robotics and AI</option>
-             <option value="Adirondack Green">Biology and Medicine</option>
-             <option value="Adirondack Green">Ecology</option>
+             <option value="--">--</option>
+             <option value="Cosmology">Cosmology</option>
+             <option value="Evolution">Evolution</option>
+             <option value="Robotics and AI">Robotics and AI</option>
+             <option value="Biology and Medicine">Biology and Medicine</option>
+             <option value="Ecology">Ecology</option>
           </select> 
         </div>
       </form>
       <div>
-        <button class="cta-pay"> 70/- NOK</button>
+        <button type="submit" class="cta-pay">70/- NOK</button>
+      </div>
+      <div>
+        <p>NOTE:</p>
+        <p> If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour on our Email or Call US.</p>
       </div>
     </section>
   </main>
