@@ -74,6 +74,10 @@ a {
   text-decoration: none;
 }
 
+.home-img {
+  max-width: 750px;
+}
+
 .tittle {
   text-align: center;
   font-size: var(--tittle);
