@@ -471,7 +471,7 @@ a {
   color: var(--color-text-color);
   margin-bottom: 20px;
 }
-/*-------------------------------------------------cafe and shop --------------------------*/
+/*-------------------------------------------------event --------------------------*/
 .topic {
   margin-top: 20px;
 }
@@ -511,7 +511,7 @@ a {
   box-shadow: 1px 1px 34px var(--color-grey);
 }
 .three {
-  max-width: 300px;
+  max-width: 250px;
   position: relative;
   left: 31px;
   z-index: 2;
