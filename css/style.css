@@ -493,7 +493,7 @@ a {
 }
 
 .event-img {
-  box-shadow: 1px 1px 30px var(--color-red-light);
+  box-shadow: 1px 1px 30px #f0907e;
 }
 
 .two {
@@ -592,4 +592,13 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+/*-------------------------------------------------reservation --------------------------*/
+.note {
+  box-sizing: border-box;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
