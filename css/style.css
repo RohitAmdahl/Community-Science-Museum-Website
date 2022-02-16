@@ -477,7 +477,7 @@ a {
   margin-top: 20px;
 }
 .one {
-  max-width: 150px;
+  max-width: 125px;
   z-index: 2;
   position: relative;
   left: 64px;
@@ -497,10 +497,10 @@ a {
 }
 
 .two {
-  max-width: 210px;
+  max-width: 150px;
   z-index: 2;
   position: relative;
-  left: -56px;
+  left: -50px;
 }
 .text-two {
   box-sizing: border-box;
@@ -512,7 +512,7 @@ a {
   box-shadow: 1px 1px 34px var(--color-grey);
 }
 .three {
-  max-width: 250px;
+  max-width: 150px;
   position: relative;
   left: 31px;
   z-index: 2;
@@ -552,6 +552,38 @@ a {
 .big-letters {
   font-size: var(--h3);
 }
+/*-------------------------------------------------event --------------------------*/
+
+.text-support {
+  box-sizing: border-box;
+  max-width: 600px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 20px var(--color-grey);
+}
+
+.text-Volunteer {
+  box-sizing: border-box;
+  max-width: 600px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 34px var(--color-grey);
+}
+
+.text-Internship {
+  box-sizing: border-box;
+  max-width: 600px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 34px var(--color-grey);
+}
+
 /*-------------------------------------------------cafe and shop --------------------------*/
 .color {
   background-color: var(--color-light-green);
