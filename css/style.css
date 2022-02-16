@@ -148,9 +148,10 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 10px;
   padding-top: 40px;
   padding-bottom: 55px;
+  gap: 10px;
 }
 
 .picture {
@@ -471,7 +472,85 @@ a {
   margin-bottom: 20px;
 }
 /*-------------------------------------------------cafe and shop --------------------------*/
+.topic {
+  margin-top: 20px;
+}
+.one {
+  max-width: 150px;
+  z-index: 2;
+  position: relative;
+  left: 64px;
+}
+.text-one {
+  box-sizing: border-box;
+  max-width: 450px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 34px var(--color-grey);
+}
 
+.event-img {
+  box-shadow: 1px 1px 30px var(--color-red-light);
+}
+
+.two {
+  max-width: 210px;
+  z-index: 2;
+  position: relative;
+  left: -56px;
+}
+.text-two {
+  box-sizing: border-box;
+  max-width: 440px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 34px var(--color-grey);
+}
+.three {
+  max-width: 300px;
+  position: relative;
+  left: 31px;
+  z-index: 2;
+}
+.text-3 {
+  box-sizing: border-box;
+  max-width: 550px;
+  z-index: 1;
+  background-color: var(--color-light-green);
+  text-align: left;
+  padding: 15px;
+  box-shadow: 1px 1px 34px var(--color-grey);
+}
+.cta-book {
+  color: var(--color-text-color);
+  padding: 12px 45px;
+  text-decoration: none;
+  background-color: var(--color-perpal);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 15px rgb(187, 183, 183);
+  text-shadow: 1px 2px 15px var(--color-light-green);
+  position: relative;
+  top: -15px;
+  width: 128px;
+  transition: ease-in-out 250ms;
+  margin-bottom: 10px;
+}
+
+.cta-book:hover {
+  background-color: var(--color-red-light);
+}
+
+.big-letters {
+  font-size: var(--h3);
+}
 /*-------------------------------------------------cafe and shop --------------------------*/
 .color {
   background-color: var(--color-light-green);
