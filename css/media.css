@@ -12,6 +12,7 @@
     font-size: 28px;
     position: static;
     left: 350px;
+    font-family: cursive;
   }
   nav {
     display: none;
@@ -22,9 +23,9 @@
 
   #menu-checkbox:checked ~ nav {
     display: grid;
-    grid-template-columns: 550px;
+    grid-template-columns: 800px;
     position: absolute;
-    left: 32px;
+    left: -1px;
     top: 113px;
   }
 
@@ -113,5 +114,40 @@
   }
   .open {
     margin-top: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  .heading-1 {
+    font-size: 0.6em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    grid-template-columns: 600px;
+    position: absolute;
+    left: -1px;
+    top: 113px;
+  }
+}
+
+@media (max-width: 420px) {
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    grid-template-columns: 420px;
+    position: absolute;
+    left: -1px;
+    top: 113px;
+  }
+
+  .opening-hours {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
