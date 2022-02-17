@@ -16,6 +16,10 @@
     padding-bottom: 50px;
   }
 
+  .opening-hours {
+    position: inherit;
+  }
+
   .cta-1 {
     padding: 15px 10px;
   }
@@ -27,6 +31,7 @@
     top: 0;
     right: 0;
     bottom: 0;
+    margin-top: 20px;
   }
 
   .copywrite {
@@ -51,5 +56,28 @@
     align-items: center;
     justify-content: center;
     position: inherit;
+  }
+  .background-1 {
+    background-size: inherit;
+  }
+
+  .text-1 {
+    box-shadow: 1px 1px 34px var(--color-grey);
+  }
+  .middle {
+    box-shadow: 1px 1px 34px var(--color-grey);
+  }
+
+  .text-2 {
+    padding: 20px 40px;
+  }
+  .text-3 {
+    margin-top: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    display: none;
   }
 }
