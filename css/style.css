@@ -552,7 +552,7 @@ a {
 .big-letters {
   font-size: var(--h3);
 }
-/*-------------------------------------------------event --------------------------*/
+/*-------------------------------------------------get-involved --------------------------*/
 
 .text-support {
   box-sizing: border-box;
@@ -624,6 +624,17 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+input {
+  padding-top: 10px;
+}
+
+label {
+  font-size: 18px;
+}
+
+#exhibition {
+  padding-top: 10px;
 }
 /*-------------------------------------------------reservation --------------------------*/
 .note {
