@@ -24,10 +24,11 @@
 
   #menu-checkbox:checked ~ nav {
     display: grid;
-    grid-template-columns: 800px;
+    grid-template-columns: 920px;
     position: absolute;
     left: -1px;
     top: 113px;
+    z-index: 1000;
   }
 
   .address {
@@ -57,6 +58,9 @@
     right: 0;
     bottom: 0;
     margin-top: 20px;
+  }
+  .shop {
+    background-size: auto;
   }
 }
 
