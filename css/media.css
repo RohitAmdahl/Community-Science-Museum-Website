@@ -22,7 +22,6 @@
     text-align: center;
   }
 
-
   #menu-checkbox:checked ~ nav {
     display: grid;
     grid-template-columns: 800px;
@@ -58,8 +57,6 @@
     right: 0;
     bottom: 0;
     margin-top: 20px;
-  }
-
   }
 }
 
