@@ -32,6 +32,9 @@ p {
   color: var(--color-text-color);
   text-decoration: none;
 }
+p {
+  font-size: 16px;
+}
 
 h1 {
   font-size: var(--h1);
@@ -144,6 +147,17 @@ a {
 }
 
 .wrap-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  gap: 10px;
+}
+
+.wrap-3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -476,10 +490,11 @@ a {
   margin-top: 20px;
 }
 .one {
-  max-width: 125px;
+  max-width: 100px;
   z-index: 2;
   position: relative;
-  left: 64px;
+  left: 51px;
+  width: 100%;
 }
 .text-one {
   box-sizing: border-box;
@@ -493,13 +508,15 @@ a {
 
 .event-img {
   box-shadow: 1px 1px 30px #f0907e;
+  max-width: 500px;
 }
 
 .two {
-  max-width: 150px;
+  max-width: 125px;
   z-index: 2;
   position: relative;
   left: -50px;
+  width: 100%;
 }
 .text-two {
   box-sizing: border-box;
@@ -511,10 +528,11 @@ a {
   box-shadow: 1px 1px 34px var(--color-grey);
 }
 .three {
-  max-width: 150px;
+  max-width: 130px;
   position: relative;
   left: 31px;
   z-index: 2;
+  width: 100%;
 }
 .text-3 {
   box-sizing: border-box;

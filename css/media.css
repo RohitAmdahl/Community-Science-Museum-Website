@@ -1,14 +1,83 @@
+@media (max-width: 920px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .menu {
+    font-size: 24px;
+    position: static;
+    left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav {
+    display: none;
+    background-color: var(--color-light-green);
+    z-index: 2;
+    text-align: center;
+  }
+
+
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    grid-template-columns: 800px;
+    position: absolute;
+    left: -1px;
+    top: 113px;
+  }
+
+  .address {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .opening-hours {
+    position: inherit;
+    margin-top: 35px;
+  }
+
+  .artical-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .cta-1 {
+    padding: 15px 10px;
+  }
+
+  .teacher,
+  .kids {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+  }
+
+  }
+}
+
+/*--------------------------------------------------800px --------------------------*/
 @media (max-width: 800px) {
   .menu {
     display: flex;
     flex-direction: column;
   }
+
   p {
     font-size: 16px;
   }
+
   .heading-1 {
     font-size: 32px;
   }
+
   h1 {
     font-size: 25px;
   }
@@ -16,6 +85,7 @@
   h2 {
     font-size: 22px;
   }
+
   h3 {
     font-size: 20px;
   }
@@ -30,11 +100,33 @@
     left: 350px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   nav {
     display: none;
     background-color: var(--color-light-green);
     z-index: 2;
     text-align: center;
+  }
+
+  .one {
+    top: 93px;
+    left: 174px;
+  }
+
+  .two {
+    top: -114px;
+    bottom: 0px;
+    left: 232px;
+  }
+
+  .three {
+    position: static;
+  }
+
+  .wrap-1 {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   #menu-checkbox:checked ~ nav {
@@ -97,6 +189,7 @@
     align-items: center;
     justify-content: center;
     position: inherit;
+    padding: 25px;
   }
   .background-1 {
     background-size: inherit;
@@ -132,7 +225,7 @@
     margin-top: 34px;
   }
 }
-
+/*--------------------------------------------------600px --------------------------*/
 @media (max-width: 600px) {
   h1 {
     font-size: 1.2em;
@@ -150,9 +243,38 @@
     font-size: 30px;
   }
 
+  .one {
+    max-width: 78px;
+  }
+
   .event-img {
     max-width: 400px;
   }
+
+  .two {
+    top: -78px;
+    left: 124px;
+  }
+
+  .three {
+    left: -199px;
+    top: 64px;
+  }
+
+  .cta-book {
+    top: -125px;
+  }
+
+  .wrap-1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .wrap-3 {
+    flex-direction: column;
+    position: relative;
+    top: -186px;
+  }
+
   .teacher,
   .kids {
     position: static;
@@ -184,7 +306,7 @@
     top: 113px;
   }
 }
-
+/*--------------------------------------------------420px --------------------------*/
 @media (max-width: 420px) {
   #menu-checkbox:checked ~ nav {
     display: grid;
@@ -196,6 +318,16 @@
 
   p {
     font-size: 15px;
+  }
+
+  .wrap-1 {
+    padding: 30px 10px;
+  }
+
+  .one,
+  .two,
+  .three {
+    display: none;
   }
 
   .opening-hours {
@@ -233,5 +365,9 @@
   .kids {
     font-size: 30px;
     margin-top: 25px;
+  }
+  .wrap-3 {
+    position: static;
+    padding-top: 0px;
   }
 }
