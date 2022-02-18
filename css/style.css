@@ -6,10 +6,10 @@
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
   --color-link: #084dbd;
-  --h1: 1.7em;
-  --h2: 1.2em;
-  --h3: 1.3em;
-  --tittle: 42px;
+  --h1: 1.6em;
+  --h2: 1.3em;
+  --h3: 1.2em;
+  --tittle: 40px;
 }
 
 .link {
@@ -76,7 +76,6 @@ a {
 
 .home-img {
   max-width: 750px;
-  box-shadow: 0px 0px 8px;
 }
 
 .tittle {
