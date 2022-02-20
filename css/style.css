@@ -193,9 +193,10 @@ a {
 }
 
 .copywrite {
-  width: 480px;
+  width: 250px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .link {
@@ -212,6 +213,8 @@ a {
 .address p {
   margin: 0;
   text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 /*--------------------------------------------------About us  --------------------------*/
 .background-1 {
@@ -247,6 +250,8 @@ a {
   text-align: left;
   padding-bottom: 1px;
   padding-top: 1px;
+  position: relative;
+  top: -52px;
 }
 
 .text-1 {
@@ -345,6 +350,12 @@ a {
 .Kids {
   font-size: var(--tittle);
   margin: 20px;
+}
+
+.Researchers {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
 }
 /*--------------------------------------------------exhibition --------------------------*/
 
@@ -519,7 +530,7 @@ a {
 
 .event-img {
   box-shadow: 1px 1px 30px #f0907e;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .two {
