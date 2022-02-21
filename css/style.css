@@ -6,6 +6,8 @@
   --color-light-green: #e6ede7;
   --color-text-color: #4b2f2f;
   --color-link: #084dbd;
+  --color-pink-closed: #ac088b;
+  --color-hightlight: #0876ac;
   --h1: 1.6rem;
   --h2: 1.3rem;
   --h3: 1.2rem;
@@ -90,6 +92,10 @@ a {
 
 .home-img {
   max-width: 750px;
+}
+
+.closed {
+  color: var(--color-pink-closed);
 }
 
 .tittle {
@@ -578,7 +584,6 @@ a {
   justify-content: center;
   align-items: center;
   box-shadow: 1px 2px 15px rgb(187, 183, 183);
-  text-shadow: 1px 2px 15px var(--color-light-green);
   position: relative;
   top: -15px;
   width: 128px;
@@ -592,8 +597,8 @@ a {
 
 .big-letters {
   font-size: var(--h3);
-  text-decoration: underline;
-  text-underline-offset: 6px;
+  font-weight: bold;
+  color: var(--color-hightlight);
 }
 /*-------------------------------------------------get-involved --------------------------*/
 
