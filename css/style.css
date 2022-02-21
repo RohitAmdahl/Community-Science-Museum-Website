@@ -44,7 +44,7 @@ p {
   text-decoration: none;
 }
 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 h1 {
@@ -260,7 +260,7 @@ a {
   text-align: left;
   padding: 15px 15px;
   box-sizing: border-box;
-  max-width: 800px;
+  max-width: 700px;
 }
 .heading {
   font-size: var(--tittle);
@@ -322,7 +322,7 @@ a {
 }
 
 .text-2 {
-  max-width: 960px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: left;
   padding: 15px 15px;
@@ -423,6 +423,9 @@ a {
 .artical {
   background: var(--color-light-green);
   margin: 0 auto;
+  padding: 10px 0px;
+  position: relative;
+  top: -60px;
 }
 
 .itemes {
@@ -443,7 +446,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
-  background-position-y: -61px;
 }
 
 .main {
@@ -478,6 +480,7 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .main-4 {
   background-image: url(/pictures/ecology.jpg);
   background-repeat: no-repeat;
@@ -590,6 +593,8 @@ a {
 
 .big-letters {
   font-size: var(--h3);
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 /*-------------------------------------------------get-involved --------------------------*/
 
