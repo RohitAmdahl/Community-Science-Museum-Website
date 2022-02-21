@@ -35,7 +35,7 @@
     grid-template-columns: 920px;
     position: absolute;
     left: -1px;
-    top: 113px;
+    top: 97px;
     z-index: 1000;
     box-shadow: 0px 0px 2px;
   }
@@ -123,6 +123,7 @@
     left: 350px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    font-weight: bold;
   }
 
   nav {
