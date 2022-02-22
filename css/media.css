@@ -139,13 +139,14 @@
   }
 
   .two {
-    top: -114px;
-    bottom: 0px;
-    left: 232px;
+    top: 58px;
+    left: 191px;
   }
 
   .three {
-    position: static;
+    position: relative;
+    left: 160px;
+    top: 78px;
   }
 
   .wrap-1 {
