@@ -524,6 +524,7 @@ a {
   min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: center;
 }
 
 .topic {
