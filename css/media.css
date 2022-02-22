@@ -260,7 +260,7 @@
   }
 
   .one {
-    max-width: 78px;
+    display: none;
   }
 
   .event-img {
@@ -268,13 +268,11 @@
   }
 
   .two {
-    top: -78px;
-    left: 124px;
+    display: none;
   }
 
   .three {
-    left: -199px;
-    top: 64px;
+    display: none;
   }
 
   .cta-book {
@@ -287,8 +285,7 @@
   }
   .wrap-3 {
     flex-direction: column;
-    position: relative;
-    top: -186px;
+    position: inherit;
   }
 
   .teacher,

@@ -517,6 +517,15 @@ a {
   margin-bottom: 20px;
 }
 /*-------------------------------------------------event --------------------------*/
+
+.event-background {
+  background-color: aliceblue;
+  background-image: url(/pictures/event-background.jpg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .topic {
   margin-top: 20px;
 }
@@ -542,10 +551,10 @@ a {
 }
 
 .two {
-  max-width: 125px;
+  max-width: 120px;
   z-index: 2;
   position: relative;
-  left: -50px;
+  left: 33px;
   width: 100%;
 }
 .text-two {
