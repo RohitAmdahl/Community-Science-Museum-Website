@@ -133,22 +133,6 @@
     text-align: center;
   }
 
-  .one {
-    top: 93px;
-    left: 174px;
-  }
-
-  .two {
-    top: 58px;
-    left: 191px;
-  }
-
-  .three {
-    position: relative;
-    left: 160px;
-    top: 78px;
-  }
-
   .wrap-1 {
     margin: 0px;
     padding-top: 0px;
@@ -202,12 +186,16 @@
     margin-top: 0px;
   }
   .wrap-1 {
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: inherit;
     padding: 25px;
   }
+
+  .wrap-3 {
+    margin-top: 60px;
+  }
+
   .background-1 {
     background-size: inherit;
   }
@@ -264,16 +252,16 @@
     display: none;
   }
 
-  .event-img {
-    max-width: 400px;
-  }
-
   .two {
     display: none;
   }
 
   .three {
     display: none;
+  }
+
+  .event-img {
+    max-width: 400px;
   }
 
   .cta-book {
