@@ -250,7 +250,11 @@
   }
 
   .Online-form {
-    font-size: 30px;
+    font-size: 1.8em;
+  }
+
+  .form-wrap {
+    padding: 15px;
   }
 
   .one {
