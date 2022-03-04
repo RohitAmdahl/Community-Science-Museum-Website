@@ -614,6 +614,14 @@ a {
   color: var(--color-hightlight);
 }
 /*-------------------------------------------------get-involved --------------------------*/
+.topic {
+  margin: 0;
+  background-image: url(/pictures/get_involved_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position-y: -10px;
+}
 
 .text-support {
   box-sizing: border-box;
