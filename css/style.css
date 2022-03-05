@@ -104,7 +104,7 @@ a {
   font-size: var(--tittle);
   color: var(--color-text-color);
   box-sizing: border-box;
-  max-width: 900px;
+  max-width: 960px;
   min-height: 100px;
   margin: 0 auto;
   text-shadow: 2px 1px 0px rgb(146, 145, 145);
@@ -235,7 +235,7 @@ a {
 .tittle-1 {
   background-color: aqua;
   box-sizing: border-box;
-  max-width: 900px;
+  max-width: 960px;
   min-height: 120px;
   margin: 0 auto;
   justify-content: center;
