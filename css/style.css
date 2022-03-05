@@ -292,9 +292,6 @@ a {
 }
 
 /*--------------------------------------------------explore --------------------------*/
-.Researchers {
-  font-size: var(--tittle);
-}
 
 .boy-kid {
   height: 760px;
@@ -306,12 +303,14 @@ a {
   margin: 0 auto;
   position: relative;
   top: 2px;
+  box-shadow: 58px 1px 34px var(--color-grey);
 }
 
 .teacher-img {
   max-width: 500px;
   display: block;
   margin: 0 auto;
+  box-shadow: 1px 1px 34px var(--color-grey);
 }
 
 .text-kid {
@@ -366,6 +365,7 @@ a {
   max-width: 800px;
   display: block;
   margin: 0 auto;
+  font-size: var(--tittle);
 }
 /*--------------------------------------------------exhibition --------------------------*/
 
