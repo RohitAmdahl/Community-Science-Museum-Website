@@ -626,7 +626,7 @@ a {
 
 .text-support {
   box-sizing: border-box;
-  max-width: 600px;
+  max-width: 650px;
   z-index: 1;
   background-color: var(--color-light-green);
   text-align: left;
@@ -636,7 +636,7 @@ a {
 
 .text-Volunteer {
   box-sizing: border-box;
-  max-width: 600px;
+  max-width: 650px;
   z-index: 1;
   background-color: var(--color-light-green);
   text-align: left;
@@ -646,7 +646,7 @@ a {
 
 .text-Internship {
   box-sizing: border-box;
-  max-width: 600px;
+  max-width: 650px;
   z-index: 1;
   background-color: var(--color-light-green);
   text-align: left;
