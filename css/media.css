@@ -34,7 +34,7 @@
 
   #menu-checkbox:checked ~ nav {
     display: grid;
-    grid-template-columns: 920px;
+    grid-template-columns: 400px;
     position: absolute;
     left: -1px;
     top: 97px;
@@ -144,7 +144,7 @@
 
   #menu-checkbox:checked ~ nav {
     display: grid;
-    grid-template-columns: 800px;
+    grid-template-columns: 400px;
     position: absolute;
     left: -1px;
     top: 113px;
