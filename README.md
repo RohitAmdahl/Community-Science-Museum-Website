@@ -1,6 +1,6 @@
 # Your project title
 
-![image]![Home-science](https://user-images.githubusercontent.com/91061651/193804700-50541b0c-9257-4ead-bd56-a81be195d801.jpg)
+![Home-science](https://user-images.githubusercontent.com/91061651/193804700-50541b0c-9257-4ead-bd56-a81be195d801.jpg)
 
 
 A simple overview of the use/purpose of the project.
