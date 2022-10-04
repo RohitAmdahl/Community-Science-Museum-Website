@@ -2,7 +2,6 @@
 
 ![Home-science](https://user-images.githubusercontent.com/91061651/193804700-50541b0c-9257-4ead-bd56-a81be195d801.jpg)
 
-
 A simple overview of the use/purpose of the project.
 
 ## Description
@@ -33,31 +32,7 @@ You can list a the tech stack that you've used over here
 
 ## Getting Started
 
-### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+I started with design tile and and start with my pan and paper layout just a sketches / wireframes. after to made same concept about UX design and brand, i got all the material for the website like logo and content, but of course i edit the logo and download same more pictures from unsplash. i had a visuals in my mind how i will arrange all those pictures. with this semester project we got to use whatever we learn from first semester. mainly. design, developing software adobe or figma and HTML and CSS.
 
 ## Contributing
 
