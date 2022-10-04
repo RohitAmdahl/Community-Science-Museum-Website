@@ -13,8 +13,6 @@ This is my Semester project that i have to make responsive website this is my 2n
 We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
 Come join us at the Community Science Museum where we’re committed to making science accessible to all.
 
-You can add some bullet points if you'd like to:
-
 - Project management.
 - Communication technology
 - Developing with HTML/CSS only.
@@ -23,8 +21,6 @@ You can add some bullet points if you'd like to:
 - Figma prototypes and style tile.
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - Figma.
 - HTML.
