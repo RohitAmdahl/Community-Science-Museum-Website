@@ -30,13 +30,6 @@ body {
   background-image: url(/pictures/body-background.png);
 }
 
-.home-page {
-  background-image: url(/pictures/home-page-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 97px;
-}
-
 h1,
 h2,
 h3,
